@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -36,7 +36,8 @@ export default function Home() {
           width={180}
           height={37}
           priority
-        />
+        />{' '}
+        with Dragon
       </div>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
@@ -109,5 +110,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }
